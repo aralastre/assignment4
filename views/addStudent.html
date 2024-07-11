@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WEB700</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <link rel="stylesheet" type="text/css" href="/css/theme.css">
+</head>
+
+<body>
+    <!-- Your navigation bar here -->
+
+    <div class="spacer"></div>
+    <section class="container">
+        <form action="/students/add" method="post" class="form">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="input-box">
+                    <input type="text" name="firstName" placeholder="Enter first name" />
+                </div>
+                <div class="input-box">
+                    <input type="text" name="lastName" placeholder="Enter last name" />
+                </div>
+                <div class="column">
+                    <div class="input-box">
+                        <input type="email" name="email" placeholder="Enter your email" />
+                    </div>
+                </div>
+                <div class="input-box address">
+                    <input type="text" name="addressStreet" placeholder="Enter Street Address" />
+                    <div class="column">
+                        <input type="text" name="addressCity" placeholder="Enter your City" />
+                        <input type="text" name="addressProvince" placeholder="Enter your Province" />
+                    </div>
+                </div>
+            </fieldset>
+
+            <div class="spacer"></div>
+
+            <fieldset>
+                <legend>Academic Information</legend>
+                <div class="job-box">
+                    <h3>Enrollment Status</h3>
+                    <div class="job-option">
+                        <div class="job">
+                            <input type="radio" value="Full-Time" name="status" />
+                            <label>Full-Time</label>
+                        </div>
+                        <div class="job">
+                            <input type="radio" value="Part-Time" name="status" />
+                            <label>Part-Time</label>
+                        </div>
+                    </div>
+                    <div class="spacer"></div>
+                    <h3>College Employment</h3>
+                    <div class="job">
+                        <input type="checkbox" name="TA" />
+                        <label>Teaching Assistant</label>
+                    </div>
+                </div>
+                <div class="spacer"></div>
+                <div class="column">
+                    <div class="select-box">
+                        <select name="course">
+                            <option value="1">Relational Database Design and Implementation</option>
+                            <option value="2">Java Programming</option>
+                            <option value="3">Introduction to Cloud Computing</option>
+                            <option value="4">Database Administration and Management</option>
+                            <option value="5">Web Programming</option>
+                            <option value="6">Applied Capstone Project</option>
+                            <option value="7">Database Connectivity Using Java</option>
+                            <option value="8">Accessing Big Data</option>
+                            <option value="9">Datawarehousing</option>
+                            <option value="10">Security in Databases and Web Applications</option>
+                            <option value="11">Work Term Preparation (Work-Integrated Learning option only)</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="spacer"></div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <div class="spacer"></div>
+        <a href="/students" class="btn btn-secondary">addStudent</a>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

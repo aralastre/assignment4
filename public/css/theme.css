@@ -1,0 +1,153 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+/* App Background */
+body, html {
+    font-family: 'Bangers', cursive;
+    background: linear-gradient(to right, #FFD700, #FFA500, #FF6347);
+    color: #00008B;
+}
+
+/* Navigation Bar */
+.bg-light {
+    background: linear-gradient(to right, #FFD700, #FFA500, #FF6347);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* Navigation "Brand" */
+.navbar-light .navbar-brand {
+    font-family: 'Bangers', cursive;
+    color: #00008B;
+    text-shadow: 2px 2px #FFD700;
+}
+
+/* Navigation "Link" */
+.navbar-nav .nav-link {
+    font-family: 'Bangers', cursive;
+    color: #00008B;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FF6347;
+}
+
+/* "Primary" Button */
+.btn-primary {
+    background: linear-gradient(to right, #FFD700, #FFA500, #FF6347);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #FF6347, #FFA500, #FFD700);
+}
+
+/* Table cells inside "odd" numbered table rows */
+table tr:nth-child(odd) td {
+    background: #FFD700;
+}
+
+/* All "Heading" elements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bangers', cursive;
+    color: #00008B;
+    text-shadow: 2px 2px #FFD700;
+}
+
+/* All "Anchor" elements (HTML Links) */
+a {
+    font-family: 'Bangers', cursive;
+    color: #00008B;
+}
+
+a:hover {
+    color: #FF6347;
+}
+
+/* Fieldset "Legends" */
+legend {
+    font-family: 'Bangers', cursive;
+    padding: 10px 0;
+    color: #00008B;
+    text-shadow: 2px 2px #FFD700;
+}
+
+/* Style for form fieldset */
+form fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #00008B;
+    border-radius: 5px;
+}
+
+/* Style for form legend */
+form fieldset legend {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #00008B;
+}
+
+/* Style for form inputs */
+form .input-box input {
+    font-family: 'Bangers', cursive;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #00008B;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Style for form select */
+form .select-box select {
+    font-family: 'Bangers', cursive;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #00008B;
+    border-radius: 5px;
+}
+
+/* Style for form buttons */
+form button {
+    font-family: 'Bangers', cursive;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #00008B;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #FF6347;
+}
+
+/* Style for tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    border: 1px solid #00008B;
+}
+
+/* Style for table headers */
+table th {
+    background-color: #FFD700;
+    color: #00008B;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #00008B;
+}
+
+/* Style for table data cells */
+table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #00008B;
+}
+
+/* Style for table caption */
+table caption {
+    font-size: 1.5em;
+    color: #00008B;
+    margin-bottom: 0.75em;
+}
